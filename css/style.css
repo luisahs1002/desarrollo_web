@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@1,300 & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 ;
+    background-color: #191919;
+}
+
+body{
+    background-color: #191919;
+    color: #fdf0d5;
+}
+
+/* NAVBAR*/
+
+.bg-color_navbar{
+    background-color: #c1121f;
+    color: #fff;
+}
+.nav-link, .navbar-tittle{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+.carousel-inner, .carousel-item{
+    height: 80%;
+    
+}
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.footer{
+    font-weight: bolder;
+}
+
+.hero{
+    background-image: url(../assets/images/f1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    color: #fdf0d5;
+}
+
+.hero article{
+    width: 50%;
+}
+
+.row{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.card{
+    border-radius: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 400px;
+    height: 550px;
+    margin: 0;
+    background-color: #191919;
+    color: #fff;
+    overflow: hidden;
+    border: transparent;
+    
+}
+
+
+.card-img img{
+    object-fit: cover;
+    display: flex;
+
+}
+
+
+
+.card:hover img{
+    width: 400px;
+    height: 100%;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+@media(max-width:480px){
+    .hero article{
+        width: 100%;
+    }
+    .card{
+        width: 90%;
+    }
+}
+
+
+
+
+/*.portada, .premios{
+    background-color: #191919;
+    color: #fdf0d5;
+    text-align: center;
+    
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+    
+.piloto{
+    width: 80%;
+    height: 80%;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.card-img img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    gap: 15px;
+    border-radius: 10px;
+    filter: blur(5px);
+    transition: 0.5s;
+}*/
+/*
+.card-img{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.card:hover img{
+    filter: blur(0);
+    width: 400px;
+    height: 400px;
+}
+
+.hamilton-content , .alonso-content , .leclerc-content , .max-content{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+}
+
+
+.piloto:hover{
+    box-shadow: 5px 5px 5px 5px #191919;
+}
+
+.piloto:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+
+
+.hamilton{
+    background-color: #191919;
+    color: #fdf0d5;
+    border: solid 10px #191919;
+
+}
+
+.alonso{
+    background-color: #3a5a40;
+    color: #fdf0d5;
+    border: solid 10px #3a5a40
+}
+
+.leclerc{
+    background-color: #c1121f;
+    color: #fdf0d5;
+    border: solid 10px #c1121f;
+}
+
+.max{
+    background-color: #001d3d;
+    color: #fdf0d5;
+    border: solid 10px #001d3d;
+}
+
+
+
+.pilotos{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+
+    /* SCUDERIA*/
+
+.scuderias{
+    width: 300px;
+    height: 90%;
+    background-color: #c1121f;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    margin: 30px ;
+    border: 3px solid #c1121f;
+    border-radius: 30px;
+}
+
+.scuderias img{
+    overflow: auto;
+    width: 100%;
+}
+
+.premios{
+    width: 300px;
+    height: 90%;
+    background-color: #c1121f;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    margin: 30px ;
+    border: 3px solid #c1121f;
+    border-radius: 30px;
+}
+
+.premios img{
+    overflow: auto;
+    width: 100%;
+}
+
+.contacto{
+    width: 300px;
+    height: 90%;
+    background-color: #c1121f;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    margin: 30px ;
+    border: 3px solid #c1121f;
+    border-radius: 30px;
+    font-weight: 300;
+}
+
+
+
