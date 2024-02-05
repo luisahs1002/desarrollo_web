@@ -99,7 +99,7 @@ body{
 
 .card:hover img{
     width: 400px;
-    height: 100%;
+    height: 90%;
     transition: 0.5s;
     overflow: hidden;
 }
