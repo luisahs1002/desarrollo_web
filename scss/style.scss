@@ -1,0 +1,40 @@
+//BASE
+
+@import'base/vars';
+@import'base/reset';
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@1,300 & display=swap');
+
+//COMPONENTS
+
+@import'components/navbar';
+@import'components/footer';
+
+
+
+//LAYOUT
+
+@import'layout/index';
+@import'layout/pilotos';
+@import'layout/scuderia';
+@import'layout/gran_premio';
+@import'layout/contacto';
+@import'layout/mediaqueries';
+
+
+body{
+    background-color: $color_fondo;
+    color: $color_fuente;
+}
+
+
+.carousel-inner, .carousel-item{
+    height: 80%;
+    
+}
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+}
+
+

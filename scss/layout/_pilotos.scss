@@ -1,0 +1,24 @@
+.row{
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    padding: 0;
+    gap: 5px;
+    width: 400px;
+    background-color: $color_cards;
+    color: $color_fuente;
+    margin: 10px 0;
+}
+
+.imagen{
+    object-fit: cover;
+    width: 400px;
+    height: 500px;
+}
+

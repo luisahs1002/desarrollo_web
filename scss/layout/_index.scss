@@ -1,0 +1,30 @@
+.hero{
+    background-image: url(../assets/images/f1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    color: $color_fuente;
+}
+
+.hero article{
+    width: 50%;
+}
+
+.carousel-inner, .carousel-item{
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+.row{
+    margin: 0;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
