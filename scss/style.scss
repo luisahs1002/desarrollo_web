@@ -21,20 +21,6 @@
 @import'layout/mediaqueries';
 
 
-body{
-    background-color: $color_fondo;
-    color: $color_fuente;
-}
 
-
-.carousel-inner, .carousel-item{
-    height: 80%;
-    
-}
-
-.carousel-item img{
-    height: 600px;
-    object-fit: cover;
-}
 
 
